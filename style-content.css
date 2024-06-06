@@ -221,13 +221,13 @@ main {
         .download-button,
         .code-access {
             display: inline-block;
-            padding: 8px;
+            padding: 6px;
             background-color: #4CAF50;
             color: white;
             text-align: center;
             text-decoration: none;
             border-radius: 4px;
-            font-size: 16px;
+            font-size: 14px;
             margin-right: 10px;
         }
 
