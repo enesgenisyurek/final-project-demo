@@ -184,23 +184,57 @@ main {
     text-align: left;
 }
 
-.download-button {
-    display: inline-block;
-    /* padding: 10px 20px; */
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+        .download-button {
+            display: block;
+            width: 80%; /* Buton genişliğini ayarlar */
+            margin: 0 auto; /* Ortalar */
+            padding: 8px;
+            background-color: #4CAF50; /* Buton arka plan rengi */
+            color: white; /* Yazı rengi */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px; /* Köşeleri yuvarlatır */
+            font-size: 16px; /* Yazı boyutu */
+        }
 
-.download-button:hover {
-    background-color: #45a049;
-}
+        .download-button:hover {
+            background-color: #45a049; /* Hover durumunda arka plan rengi */
+        }
 
 .pdf {
     display: flex;
     justify-content: space-around;
 }
+
+
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .download-button,
+        .code-access {
+            display: inline-block;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .code-access {
+            background-color: #007BFF;
+        }
+
+        .download-button:hover {
+            background-color: #45a049;
+        }
+
+        .code-access:hover {
+            background-color: #0056b3;
+        }
