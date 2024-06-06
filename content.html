@@ -7,6 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proje Sitesi</title>
     <link rel="stylesheet" href="style-content.css">
+    <style>
+        .button-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .view-pdf-button{
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .view-pdf-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,7 +54,10 @@
                 </div>
             </section>
             <div class="button-container">
-                <a href="poster_final.pdf" target="_blank" class="download-button">
+                <a href="poster_final.pdf" download target="_blank" class="download-button">
+                    PDF İndirmek İçin Tıklayın
+                </a>                
+                <a href="poster_final.pdf" class="view-pdf-button" target="_blank">
                     PDF Görüntülemek İçin Tıklayın
                 </a>
                 <a href="https://github.com/enesgenisyurek/A-data-driven-tool-for-generating-social-SE-insights-into-software-development" target="_blank" class="code-access">
