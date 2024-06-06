@@ -190,7 +190,7 @@ main {
 
         .download-button {
             display: block;
-            width: 80%; /* Buton genişliğini ayarlar */
+            width: 60%; /* Buton genişliğini ayarlar */
             margin: 0 auto; /* Ortalar */
             padding: 8px;
             background-color: #4CAF50; /* Buton arka plan rengi */
@@ -221,7 +221,8 @@ main {
         .download-button,
         .code-access {
             display: inline-block;
-            padding: 6px;
+	width: 60%;
+            padding: 8px;
             background-color: #4CAF50;
             color: white;
             text-align: center;
